@@ -1,0 +1,37 @@
+*{
+ 
+}
+body{
+        background-color: rgb(111, 111, 238);  
+        display: flex;
+    }
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section{
+    background-image: linear-gradient(rgb(100, 100, 192), lightblue);
+    max-width: 900px;
+    
+}
+
+#card {
+    background-color: rgb(77, 112, 209);
+}
+
+
+#cuerpo_presentacion {
+    background-color: rgb(158, 198, 221);
+}
+
+#cuerpo_ExpLab {
+    background-color: rgb(158, 198, 221);
+}
+
+#contacto {
+    display: contents ;
+    
+}
+#botonContactar {
+    background-color: rgb(11, 23, 194);
+    font-size: large;
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://static.wikia.nocookie.net/lossimpson/images/1/16/Guy_Incognito.png/revision/latest/scale-to-width-down/350?cb=20100401233011&path-prefix=es">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Curriculum</title>
+</head>
+<body>
+    <div class="container my-3">
+          <div class="card mb-3" id="card" style="max-width: 500px;">
+            <div class="row g-0">
+              <div class="col-sm-4" style="max-width: 50%;">
+                <img src="https://randomuser.me/api/portraits/men/71.jpg" class="img-fluid rounded-start" width="540px" alt="Foto de Perfil">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h1 class="card-title">Cosme Fulanito</h1>
+                  <h4>Inspector de billeteras</h4>
+                  <p class="card-text"><h6>Información personal</h6>
+                    <ul>
+                        <li>Fecha de Nacimiento: 24/3/74</li>
+                        <li>Dirección: Av. Siempreviva 742</li>
+                        <li>Mail: cosmefulanito@gmail.com</li>
+                        <li>Telefono: 112436-2345</li>
+                    </ul>  
+                  </div>
+              </div>
+            </div>
+          
+          <div class="col-sm-4" id="contacto">
+          <button type="button" class="btn btn-primary" id="botonContactar" data-bs-toggle="modal" data-bs-target="#exampleModal">Contactar a Cosme</button>
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Feedback</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form action="" method="post">
+                    <div class="mb-3">
+                      <label for="recipient-name" class="col-form-label">Remitente:</label>
+                      <input type="text" class="form-control" placeholder="mail@mail.com" id="recipient-name">
+                    </div>
+                    <div class="mb-3">
+                      <label for="message-text" class="col-form-label"  >Mensaje:</label>
+                      <textarea class="form-control" placeholder="Deje su mensaje" id="message-text"></textarea>
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  <button type="button" class="btn btn-primary">Enviar mensaje</button>
+                </div>
+              </div>
+            </div>
+           </div>
+          </div>
+        </div>
+          <section>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Presentación
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body" id="cuerpo_presentacion">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                            deserunt mollit anim id est laborum.
+                           </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                        Experiencia laboral
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body" id="cuerpo_ExpLab">
+                        <h4>La vaca contenta</h4>
+                        <h6>Desde abril 2019 a la actualidad</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                                 sunt in culpa qui officia deserunt mollit anim
+                         <p>
+                            <h4>El perico griton</h4>
+                            <h6>Desde enero 2016 a marzo 2019</h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                                 sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                </p>
+                        <h4>El ornitorrinco</h4> 
+                        <h6>Desde junio 2007 a noviembre 2015</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>           
+                    </div>
+                  </div>
+                </div>            
+            </div>
+          
+            </section>
+            <article>
+            <a class="btn btn-primary" id="botonHabilidades" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Conocimientos</a>
+        <button class="btn btn-primary" id="botonConocimientos" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Habilidades</button>
+
+        <div class="row">
+        <div class="col-10">
+          <div class="collapse multi-collapse" id="multiCollapseExample1">
+            <div class="card card-body">
+                <ul>
+                    <li>Ingles</li>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width:90%">
+                          90%
+                        </div>
+                      </div>
+                    <li>Programación</li>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width:60%">
+                          60%
+                        </div>
+                      </div>
+                    <li>Office</li>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width:80%">
+                          80%
+                        </div>
+                      </div>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-10" >
+          <div class="collapse multi-collapse" id="multiCollapseExample2">
+            <div class="card card-body" id="cardConocimientos">
+                <ul>
+                    <li>Trabajo en equipo</li>
+                    <li>Liderazgo</li>
+                    <li>Toma de decisiones</li>
+                    <li>Automatización</li>
+                </ul>
+             </div>
+          </div>
+        </div>
+      </div>
+      </article>
+    </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="formatocv.js"></script>
+    </body>
+</html>
